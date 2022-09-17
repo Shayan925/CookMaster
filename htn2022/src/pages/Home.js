@@ -9,7 +9,7 @@ export function Home() {
     const [recipe, setRecipe] = useState("")
 
     const processChange = async(event) => {
-        navigator("/recipe/" + recipe)
+        navigator("/recipe/" + recipe);
     }
 
     return (
