@@ -7,6 +7,41 @@
   pointer-events: none;
 }
 
+.Title {
+  margin-top: 20px;
+  font-size: 50px;
+  font-style: arial;
+  font-weight: bold;
+}
+
+.Webpage {
+  text-align: center;
+}
+
+.Search-bar-label {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+  font-style: arial;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Search-bar {
+  margin-top: 300px;
+}
+
+.Search-bar-margin {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#submit-button {
+  margin-top: 20px;
+  padding: 5px 5px 5px 5px;
+  font-weight: bold;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
